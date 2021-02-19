@@ -28,7 +28,7 @@ body
 #cabecera {
   display: flex;
   justify-content: space-between;
-  background-color: lightblue;
+  background-color: blue;
   padding: 1em;
 }
 
@@ -54,4 +54,23 @@ img {
   width: 2em;
   height: 2em;
   border: 1px solid black;
+}
+
+.footer {
+  background: blue;
+}
+
+.links {
+  display: flex;
+  justify-content: space-around;
+}
+
+.link {
+  margin: 0;
+}
+
+.anchor {
+  margin-right: 0;
+  padding: 1em;
+
 }
